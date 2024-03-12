@@ -1,3 +1,8 @@
+/**
+ * @author Tim Rosendahl
+ * @author Bernhard Rosenzweig
+ */
+
 package Buttons;
 
 import java.awt.Color;

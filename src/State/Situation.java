@@ -1,3 +1,8 @@
+/**
+ * @author Tim Rosendahl
+ * @author Bernhard Rosenzweig
+ */
+
 package State;
 
 import javax.swing.JLabel;
@@ -13,7 +18,6 @@ public class Situation {
 	JLabel display;
 	BinOpButton binaryOperator;
 	int leftOperand;
-	private String printOperator;
 	
 	/**
 	 * Constructor for Situation

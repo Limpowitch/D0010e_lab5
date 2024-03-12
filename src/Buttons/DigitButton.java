@@ -1,3 +1,8 @@
+/**
+ * @author Tim Rosendahl
+ * @author Bernhard Rosenzweig
+ */
+
 package Buttons;
 
 import javax.swing.JLabel;

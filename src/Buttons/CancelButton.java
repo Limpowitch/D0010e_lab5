@@ -1,3 +1,8 @@
+/**
+ * @author Tim Rosendahl
+ * @author Bernhard Rosenzweig
+ */
+
 package Buttons;
 
 import General.CalculatorButton;
@@ -32,6 +37,8 @@ public class CancelButton extends CalculatorButton {
 
         switch (situation.getState()) {
             case Input1:
+            	situation.updateState(State.Input1);
+                break;
             case OpReady:
             case Input2:
             case HasResult:
